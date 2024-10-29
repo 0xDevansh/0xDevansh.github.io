@@ -15,18 +15,21 @@ const { activeNav } = Astro.props;
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/" class="logo whitespace-nowrap">
-        {
-          LOGO_IMAGE.enable ? (
-            <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
-              alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
-            />
-          ) : (
-            SITE.title
-          )
-        }
+        <span>
+          {
+            LOGO_IMAGE.enable ? (
+              <img
+                src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
+                alt={SITE.title}
+                width={LOGO_IMAGE.width}
+                height={LOGO_IMAGE.height}
+              />
+            ) : (
+              SITE.title
+            )
+          }
+        </span>
+        <span id="subtitle">with Devansh</span>
       </a>
       <nav id="nav-menu">
         <button
@@ -164,6 +167,12 @@ const { activeNav } = Astro.props;
 
   nav button {
     @apply p-1;
+  }
+  a:has(#subtitle) {
+    @apply flex flex-col items-end;
+  }
+  #subtitle {
+    @apply text-neutral-400 font-thin text-xl;
   }
   nav button svg {
     @apply h-6 w-6 fill-skin-base hover:fill-skin-accent;
