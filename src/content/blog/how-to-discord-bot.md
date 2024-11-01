@@ -1,6 +1,6 @@
 ---
 author: Devansh Kandpal
-pubDatetime: 2024-11-01T22:42:00Z
+pubDatetime: 2024-10-31T22:42:00Z
 title: How (and how not) to make better Discord bots
 slug: how-to-discord-bot
 featured: false
