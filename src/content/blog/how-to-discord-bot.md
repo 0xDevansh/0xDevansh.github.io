@@ -4,7 +4,7 @@ pubDatetime: 2024-10-31T22:42:00Z
 title: How (and how not) to make better Discord bots
 slug: how-to-discord-bot
 featured: false
-draft: false
+draft: true
 tags:
   - discord_bot
 description: Some tips on making improving the user experience of your Discord bots.

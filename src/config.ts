@@ -40,12 +40,6 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "mailto:hphftzinq@mozmail.com",
     linkTitle: `Send an email to ${SITE.author}`,
-    active: false,
-  },
-  {
-    name: "Discord",
-    href: "https://discord.gg/CWVd3EQdc9",
-    linkTitle: `${SITE.author} on Discord`,
     active: true,
   },
   {
