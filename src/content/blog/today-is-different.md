@@ -1,6 +1,6 @@
 ---
 author: Devansh Kandpal
-pubDatetime: 2025-12-16T22:42:00Z
+pubDatetime: 2025-12-15T22:42:00Z
 title: Today is different
 slug: today-is-different
 featured: false
