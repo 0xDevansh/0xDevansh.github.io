@@ -4,7 +4,7 @@ pubDatetime: 2025-12-15T22:42:00Z
 title: Today is different
 slug: today-is-different
 featured: false
-draft: false
+draft: true
 tags:
   - poetry
 description: A poem on loss and clarity
